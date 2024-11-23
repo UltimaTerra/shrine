@@ -31,6 +31,12 @@ enum MagiToken {
     case dot  // .
     case force  // !
     case keyliteral  // if, else, truthy, false etc
+    case comment  //  // or /**/ for multi-line/nested
+    case ppmacro  // $, #
+    case assvar  // @
+    case pointer  // ^& / &^
+    case borrow  // &@
+    case operatortoken  // / * + -   == >= <= !=, ^ & ~ |, >  < ,
 }
 
 struct MagiTokenKind {
