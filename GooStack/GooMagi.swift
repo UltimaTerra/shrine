@@ -33,7 +33,7 @@ enum MagiToken {
     case keyliteral  // if, else, truthy, false etc
     case comment  //  // or /**/ for multi-line/nested
     case ppmacro  // $, #
-    case assvar  // @
+    case axxvar  // @
     case pointer  // ^& / &^
     case borrow  // &@
     case operatortoken  // / * + -   == >= <= !=, ^ & ~ |, >  < ,
