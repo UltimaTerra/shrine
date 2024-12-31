@@ -7,6 +7,11 @@ protocol ISA {
     var state: State { get }
 }
 
+enum FuState {
+
+}
+
+
 protocol Templatable: ISA {
     // Event handling for tape one
     func handleInstruction(_ event: Instruction) -> State

@@ -11,7 +11,7 @@ Lib: Common Game and Engine Types
 Magi: GUI Compiler + DSL for UI/UX
 Plug: Module System
 Ray: Graphics Driver and Runtime Driver
-Run: Public Runtime: Game and Game Engine
+Run: Public Runtime
 
 
 All of these export to a common module, GooStack. (It is in the name!)
